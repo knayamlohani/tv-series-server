@@ -1,0 +1,13 @@
+{
+	"name":"tv-series-server",
+	"version": "0.0.0",
+	"main": "server.js",
+	"author": "Mayank Lohani",
+	"engines": {
+    	"node": "0.8.x"
+  	},
+  	"dependencies":{
+		"tvdb":"mayanklohani/node-tvdb",
+		"express":"3.4.8"
+	}
+}
