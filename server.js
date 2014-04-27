@@ -24,4 +24,8 @@ app.get('/',function(req,res){
   res.send("API:\n (1) /seriesName/{name}\n (2) /seriesId/{id}");
 });
 
+
+
+
+
 app.listen(process.env["PORT"]);
